@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   color: #333;
@@ -71,16 +72,17 @@ ol {
 }
 .related {
   list-style: none;
+  margin-left: 0;
 }
 .container {
   width: 90%;
   margin: 0 auto;
 }
 aside {
-  background-color: rgba(249, 252, 255, 0.608);
+  background-color: rgba(231, 242, 252, 0.608);
   border-top: 5px solid rgb(102, 180, 160);
   border-bottom: 5px solid rgb(102, 180, 160);
-  padding: 50px 0;
+  padding: 50px 40px;
   width: 500px;
 }
 li:first-child {
@@ -139,6 +141,40 @@ h2::after {
   background-color: rgb(225, 255, 248);
   color: rgb(0, 0, 0);
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -15px;
+  top: -10px;
+}
+
+/* float */
+.author-image {
+  float: left;
+  margin-bottom: 20px;
+}
+.Author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+article {
+  width: 65%;
+  float: left;
+}
+aside {
+  width: 30%;
+  float: right;
+}
+footer {
+  clear: both;
 }
