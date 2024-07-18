@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+  font-family: sans-serif;
+  position: relative;
+}
+h1,
+h2,
+h3 {
+  color: rgb(102, 180, 160);
+}
+.main-header {
+  background-color: aliceblue;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+article {
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 28px;
+  font-size: sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  margin-bottom: 15px;
+
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+footer p {
+  font-size: 16px;
+}
+#Author {
+  font-style: italic;
+  font-size: 16px;
+}
+.related-author {
+  font-weight: bold;
+  font-size: 18px;
+}
+ul,
+ol {
+  margin-left: 50px;
+}
+.related {
+  list-style: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+aside {
+  background-color: rgba(249, 252, 255, 0.608);
+  border-top: 5px solid rgb(102, 180, 160);
+  border-bottom: 5px solid rgb(102, 180, 160);
+  padding: 50px 0;
+  width: 500px;
+}
+li:first-child {
+  font-weight: bold;
+}
+article p:last-child {
+  color: rgb(176, 192, 247);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(102, 180, 160);
+}
+a:hover {
+  color: rgb(4, 4, 4);
+}
+
+/* LVHA */
+.post-header {
+  margin-bottom: 40px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+nav {
+  text-align: center;
+}
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
+.bye {
+  font-size: medium;
+  padding: 20px;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  bottom: 20px;
+}
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+h2::after {
+  content: "Top";
+  margin: 5px;
+  padding: 10px;
+  font-size: medium;
+  background-color: rgb(225, 255, 248);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
