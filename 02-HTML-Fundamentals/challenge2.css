@@ -43,6 +43,7 @@ ul {
   height: 40px;
   width: 100%;
   text-align: center;
+  grid-column: 1/-1;
 }
 .detail {
   margin-top: 30px;
@@ -59,6 +60,17 @@ ol {
 .container {
   width: 70%;
   margin: 50px auto;
+ 
+}
+.main-heading{
+  grid-column: 1/-1;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 100px;
+  gap:10px;
+  align-items: center;
 }
 .detail-list {
   margin-top: 10px;
@@ -129,12 +141,17 @@ ol {
   /* flex-wrap: nowrap; */
   width: 20%;
 }
-.Main-container{
+/* .Main-container{
   display: flex;
 
-}
+} */
 .flex-row-ship{
  display: flex;
  gap: 30px;
- justify-content: space-around;
+ /* justify-items: center;
+ align-items: center;
+ justify-content: center;
+ align-content: center; */
+
 }
+
