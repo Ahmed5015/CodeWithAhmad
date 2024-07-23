@@ -1,0 +1,60 @@
+.btn {
+  background-color: fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background: none;
+  border: 1px solid #087f5b;
+}
+
+.btn:hover,
+.current-page {
+  color: white;
+  background: #087f5b;
+}
+.btn:hover .btn-icon {
+  stroke: white;
+}
+
+span {
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+a:hover {
+  background-color: #087f5b;
+  color: white;
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.carosal {
+  margin-top: 100px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
