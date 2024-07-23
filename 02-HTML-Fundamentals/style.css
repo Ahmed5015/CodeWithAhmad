@@ -17,8 +17,9 @@ h3 {
   padding: 20px 40px;
   margin-bottom: 60px;
 }
-article {
-  margin-bottom: 50px;
+article{
+  /* margin-bottom: 50px; */
+  /* flex: 1; */
 }
 h1 {
   font-size: 26px;
@@ -60,6 +61,9 @@ footer p {
 #Author {
   font-style: italic;
   font-size: 16px;
+  margin: 0;
+  align-self: flex-end;
+  padding-left: 10px;
 }
 .related-author {
   font-weight: bold;
@@ -80,16 +84,25 @@ aside {
   background-color: rgba(249, 252, 255, 0.608);
   border-top: 5px solid rgb(102, 180, 160);
   border-bottom: 5px solid rgb(102, 180, 160);
-  padding: 50px 0;
-  width: 500px;
+  padding: 30px 0;
+  /* flex: 0 0 300px; */
 }
 li:first-child {
   font-weight: bold;
 }
-article p:last-child {
+/* article p:last-child {
   color: rgb(176, 192, 247);
+} */
+
+/* 
+.clearfix,.clearfix::after{
+  clear:both,
+  content="",
 }
 
+.main-header-code-mag{
+float: left;
+} */
 a:link,
 a:visited {
   text-decoration: none;
@@ -100,7 +113,7 @@ a:hover {
 }
 
 /* LVHA */
-.post-header {
+/* .post-header {
   margin-bottom: 40px;
 }
 .post-img {
@@ -108,17 +121,18 @@ a:hover {
   height: auto;
 }
 nav {
+  float: right;
   text-align: center;
-}
+} */
 nav a:link {
-  display: inline-block;
-  margin-right: 30px;
+  /* display: inline-block; */
+  margin-right: 20px;
   margin-top: 10px;
 }
 nav a:link:last-child {
   margin-right: 0px;
 }
-
+/* 
 .bye {
   font-size: medium;
   padding: 20px;
@@ -126,12 +140,12 @@ nav a:link:last-child {
   cursor: pointer;
   right: 20px;
   bottom: 20px;
-}
+} */
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
 }
-h2::after {
+/* h2::after {
   content: "Top";
   margin: 5px;
   padding: 10px;
@@ -141,4 +155,57 @@ h2::after {
   position: absolute;
   right: 0;
   top: 0;
+} */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-author-img {
+  display: flex;
+}
+
+.related-work {
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.h4-relatedtag {
+  padding: 15px;
+  padding-top: 0;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.author-name {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+/* .row {
+  display: flex;
+  gap: 70px;
+  align-items: flex-start;
+} */
+
+.container{
+display: grid;
+grid-template-columns: 1fr 300px;
+column-gap: 75px;
+row-gap: 60px;
+align-items: start;
+}
+.main-header{
+  grid-column: 1/-1;
+
 }
