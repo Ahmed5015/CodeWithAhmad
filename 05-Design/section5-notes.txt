@@ -1,0 +1,139 @@
+**Web Design Rules**
+
+---
+
+**1) Typography**
+
+Objective: To make text visually appealing and ensure good readability.
+
+- Serif vs. Sans-serif:
+  - Serif: Classic, conveys trustworthiness, good for long text.
+    - Aleo
+    - Cardo
+    - Merriweather
+  - Sans-serif: Modern, clean and simple.
+    - Inter
+    - Open Sans
+    - Montserrat
+    - Lato
+
+Rules:
+1. Use only good and popular typefaces from Google Fonts.
+2. Use 1 or max 2 typefaces.
+3. Choose the right typeface according to your website's personality.
+4. Limit font sizes using a type-scale tool or predefined range.
+   - Normal text: 16px - 32px.
+   - Long text: Preferably 20px or larger.
+5. Headlines: Use 50px and bold (600+).
+6. Avoid font weight below 400 (regular).
+
+Create a Good Reading Experience:
+7. Use less than 75 characters per line.
+8. Line height:
+   - Normal text: 1.5 - 2.
+   - Big text: Below 1.5.
+9. Decrease letter spacing if it looks unnatural.
+10. Avoid justifying long text blocks.
+11. Avoid centering long text blocks.
+
+---
+
+**2) Color**
+
+Objective: Establish a harmonious color scheme that enhances readability and user experience.
+
+- Red: Attention, power, passion.
+- Orange: Happiness, cheerfulness, creativity.
+- Yellow: Joy, brightness, intelligence.
+- Green: Harmony, nature, growth, health.
+- Blue: Peace, trustworthiness, professionalism.
+- Purple: Wealth, wisdom, magic.
+- Pink: Romance, care, affection.
+- Brown: Nature, durability, comfort.
+- Black: Power, elegance.
+
+Tools: Open Color for generating tints and shades.
+
+- Use at least 2 types of colors (1 main color, 1 grey color).
+- Ensure good contrast using a contrast checker.
+
+---
+
+**3) Images**
+
+Objective: Enhance visual appeal and storytelling.
+
+- Types: Product photos, storytelling photos, illustrations, patterns.
+- Tools: Unsplash for high-quality images.
+- Techniques:
+  1. Darken or brighten images for text readability.
+  2. Position text in neutral image areas or use text boxes.
+  3. Make images twice as big for high-resolution screens.
+  4. Compress images for better performance (use Squoosh).
+
+---
+
+**4) Icons**
+
+Objective: Enhance visual appeal and provide visual cues.
+
+Tools: Phosphor icons, Iconicons, Icons8.
+
+---
+
+**5) Shadows**
+
+Objective: Add depth and emphasis.
+
+- Use sparingly for serious designs, more for playful designs.
+- `box-shadow`: `0 20px 30px 0 hsla(0, 0%, 0%, 0.07)`.
+- `text-shadow`.
+
+---
+
+**6) Border-Radius**
+
+Objective: Soften edges and add visual interest.
+
+- Less for serious designs, more for playful designs.
+- Match with the roundness of typefaces.
+- Use on buttons, images, around icons, standout sections.
+
+---
+
+**7) Whitespace**
+
+Objective: Enhance readability and create visual balance.
+
+- Use plenty of whitespace between sections and groups of elements.
+- Vertical whitespace should be more than horizontal.
+- Use whitespace instead of lines to separate content.
+- Use whitespace generously with large text.
+
+---
+
+**8) Visual Hierarchy**
+
+Objective: Guide user attention and prioritize content.
+
+- Use a combination of position, size, colors, spacing, borders, and shadows.
+- Emphasize titles, subtitles, links, buttons, data points, and icons.
+- De-emphasize less important components using background color, shadow, or border.
+
+---
+
+**9) User Experience**
+
+Objective: Ensure usability and intuitive interaction.
+
+- Use blue text and underlines only for links.
+- Place action buttons strategically.
+- Include only relevant information.
+
+
+
+For Designs
+
+screenlane
+land-book
+awwwards
