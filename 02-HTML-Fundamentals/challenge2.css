@@ -22,7 +22,7 @@ strong {
   font-size: small;
   color: rgb(124, 124, 124);
   margin-bottom: 20px;
-  float: right;
+  
 }
 .more-info:hover {
   text-decoration: none;
@@ -43,6 +43,7 @@ ul {
   height: 40px;
   width: 100%;
   text-align: center;
+  grid-column: 1/-1;
 }
 .detail {
   margin-top: 30px;
@@ -59,6 +60,17 @@ ol {
 .container {
   width: 70%;
   margin: 50px auto;
+ 
+}
+.main-heading{
+  grid-column: 1/-1;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 100px;
+  gap:10px;
+  align-items: center;
 }
 .detail-list {
   margin-top: 10px;
@@ -68,28 +80,30 @@ ol {
 }
 .color{
   margin-top: 25px;
+  display: flex;
+  
 }
 .color div {
   height: 20px;
   width: 25px;
   margin: 5px;
-  display: inline-block;
+  /* display: inline-block; */
 }
-.blk {
+.black-clr {
   background-color: black;
 }
 
-.bl {
+.blue-clr {
   background-color: blue;
 }
-.r {
+.red-clr {
   background-color: red;
 }
 
-.beig {
-  background-color: antiquewhite;
+.beige-clr {
+  background-color: rgb(255, 192, 110);
 }
-.grn {
+.green-clr {
   background-color: green;
   height: 5px;
   width: 5px;
@@ -110,19 +124,34 @@ ol {
 .article-shoe-img{
   width:200px;
   height:auto;
-  float:left;
+  /* float:left; */
   margin-right:20px;
 }
 .price-more-info{
-  float: left;
+  /* float: left; */
   margin: 15px;
   margin-top: 25px;
   width: 35%;
   padding: 15px;
 }
 .product-detail{
-  float:right;
+  /* float:right; */
   margin: 15px;
   padding: 10px;
+  /* flex-wrap: nowrap; */
   width: 20%;
 }
+/* .Main-container{
+  display: flex;
+
+} */
+.flex-row-ship{
+ display: flex;
+ gap: 30px;
+ /* justify-items: center;
+ align-items: center;
+ justify-content: center;
+ align-content: center; */
+
+}
+

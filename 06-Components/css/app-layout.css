@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+nav,menu,section,main,aside{
+    padding-top: 24px;
+}
+nav{
+    background-color: #343a40;
+    color: white;
+    grid-row: 1/-1;
+
+}
+
+menu{
+    background-color: #7048e8;
+    color: white;
+    grid-column: 2/-1;
+    display: flex;
+    gap: 12px;
+    padding: 0 32px;
+    align-items: center;
+    
+   
+}
+button{
+    background-color: #5f3dc4;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+    
+    
+}
+button:last-child{
+    background-color: #d6336cf6;
+    
+    margin-left: auto;
+}
+section{
+    background-color: #e9ecef;
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    overflow: scroll;
+
+    
+   
+ 
+}
+aside{
+    background-color: #e9ecef;
+}
+.container{
+    font-size: 24px;
+    font-family: sans-serif;
+    color:#343a40;
+    display: grid;
+    grid-template-columns: 80px 400px 1fr 250px; 
+    grid-template-rows: 80px 1fr;
+    height: 100vh;
+    font-weight: bold;
+    text-align: center;
+
+}
+.email{
+    box-shadow: 0 12px 12px  rgba(0, 0, 0, 0.116);
+    height: 96px;
+
+    color: rgb(66, 66, 66);
+    background-color: #adb5bd;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-shrink: 0;
+
+
+}

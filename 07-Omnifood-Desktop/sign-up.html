@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="./css/sign-up.css" />
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header-logo">
+        <img class="logo" src="img/omnifood-logo.png" alt="OmniFood Logo" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#how-it-works">How it works</a>
+          </li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonial</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try For Free</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1>Sign Up</h1>
+      <form class="sign-up-form" action="" id="form" onsubmit="sConsole(event)">
+        <div class="input-field">
+          <label for="fullname">Full Name</label>
+          <input id="fullname" type="text" placeholder="Ahmad Abdullah" />
+        </div>
+        <div class="input-field">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="ahmed@gmail.com"
+            autocomplete="off"
+          />
+        </div>
+        <div class="input-field">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter Password" />
+        </div>
+        <div class="input-field">
+          <label for="dob">Date of Birth</label>
+          <input id="dob" type="date" />
+        </div>
+        <div class="input-field">
+          <label class="age-input" for="age">Age</label>
+          <input class="age-input" id="age" type="number" />
+        </div>
+        <div class="input-field radio-btn">
+          <label class="label-gender" for="female">Female</label>
+
+          <input
+            class="label-gender radio-inp"
+            id="female"
+            type="radio"
+            name="gender"
+          />
+
+          <label class="label-gender" for="male">Male</label>
+          <input
+            class="label-gender radio-inp"
+            id="male"
+            type="radio"
+            name="gender"
+          />
+        </div>
+
+        <button class="btn" type="submit">Sign up</button>
+      </form>
+    </div>
+    <script>
+      function sConsole(event) {
+        console.log("hello");
+
+        const formData = new FormData(event.target);
+        console.log("Form Data:", formData);
+
+        const formDataJSON = {};
+        formData.forEach((value, key) => {
+          formDataJSON[key] = value;
+        });
+        
+        console.log("Form Data:", formDataJSON);
+        alert("Submitted");
+
+      }
+    </script>
+  </body>
+</html>
