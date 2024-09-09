@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 4px;
+  width: 30%;
+  margin-top: 6rem;
+
+  justify-self: center;
+
+  align-items: center;
+}
+.heading {
+  color: rgb(223, 240, 255);
+  text-align: center;
+  background-color: #666;
+  padding: 1.4rem;
+}
+
+.grid div {
+  font-size: 2.4rem;
+  width: 100%;
+  outline: 3px solid #666;
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-div {
+  height: 50vh;
+
+  width: 100%;
+  display: grid;
+}
+.won {
+  font-size: 4rem;
+  color: rgb(51, 160, 255);
+  font-weight: bold;
+}
+/* .won {
+  background-color: lightgreen;
+  animation: blink 1s infinite;
+  display: inline-block;
+}
+
+@keyframes blink {
+  50% {
+    background-color: rgb(220, 255, 181);
+  }
+} */

@@ -1,0 +1,4 @@
+// Higher order function vs first class functions
+First class function is just a concept that function are saved as values
+Higher class function are those which receives function as parameters and return new functions or both.
+//Callback functions allow for abstraction
